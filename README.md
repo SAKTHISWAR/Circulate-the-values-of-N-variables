@@ -16,6 +16,14 @@ Using the slicing concept rotate the list
 ### Step 6: 
 ## Program:
 
-## Output:
+def circulate():
 
+    a = eval(input())
+
+    x = int(input())
+
+    print("After circulating the values are: {}".format(a[x:]+a[:x]))
+
+## Output:
+![model](output.png)
 ## Result:
