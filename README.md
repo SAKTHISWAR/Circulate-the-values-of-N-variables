@@ -6,16 +6,22 @@ PC
 Anaconda - Python 3.7
 ## Algorithm: 
 ### Step 1: 
+Get the two values from the user
 ### Step 2: 
-### Step 3: 
 Get the value from the user for the number of rotation
-### Step 4: 
+### Step 3: 
 Using the slicing concept rotate the list
+### Step 4: 
+End the program
 
-### Step 5: 
-### Step 6: 
 ## Program:
+```
+Circulate the values of N variable
+Name : Sakthiswar S
+Ref No : 22008587
+```
 
+```python
 def circulate():
 
     a = eval(input())
@@ -23,7 +29,10 @@ def circulate():
     x = int(input())
 
     print("After circulating the values are: {}".format(a[x:]+a[:x]))
+```    
+
 
 ## Output:
 ![model](output.png)
 ## Result:
+Hence a python program to circulate the n variables using function concept has written successfully.
